@@ -1,6 +1,8 @@
 package br.edu.bootcamp.dominio;
 
-public class Conteudo {
+public abstract class Conteudo {
+
+    protected static final double XP_PADRAO = 10d;
     private String titulo;
     private String descricao;
     private int cargaHoraria;
@@ -12,6 +14,8 @@ public class Conteudo {
         this.descricao = descricao;
         this.cargaHoraria = cargaHoraria;
     }
+
+    public abstract double calcularXP();
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
