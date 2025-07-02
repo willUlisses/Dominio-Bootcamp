@@ -15,7 +15,7 @@ public abstract class Conteudo {
         this.cargaHoraria = cargaHoraria;
     }
 
-    public abstract double calcularXP();
+    public abstract double getXP();
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;

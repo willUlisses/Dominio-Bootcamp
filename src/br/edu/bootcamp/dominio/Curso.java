@@ -9,8 +9,8 @@ public class Curso extends Conteudo{
     }
 
     @Override
-    public double calcularXP() {
-        return XP_PADRAO + 20d;
+    public double getXP() {
+        return XP_PADRAO + 30d;
     }
 
 }
